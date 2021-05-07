@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div className="bridge-logo"> <img src={bridge}></img></div>
+          <div className="bridge-logo"> <img src={bridge}></img> <a class="navbar-brand" >Shop Bridge</a></div>
           <a class="navbar-brand" href="/admin">Add Item</a>
 
         </nav>
