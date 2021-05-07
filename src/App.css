@@ -1,38 +1,89 @@
 .App {
-  text-align: center;
+  letter-spacing: 0.3px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: #ffffff;
+    min-height: 100vh;
+    color: white;
 }
 
 .App-link {
   color: #61dafb;
 }
+.bridge-logo{
+  text-align: left;
+}
+.bridge-logo img{
+  width: 145px;
+  padding: 0px 30px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+}
+.btn-welcome{
+  padding: 2px 40px;
+  border-radius: 40px;
+  color: #15161b;
+  font-size: 18px;
+  border: 2px solid #117291;
+  background-color: #4db2d0;
+  border-color: #117291;
+}
+.btn-welcome:hover{
+  border: 2px solid #4db2d0;
+  background-color: #ffffff;
+  border-color: #4db2d0;
+}
+.bg-light {
+  background-color: #15161b!important;
+}
+.navbar-light .navbar-brand {
+  color: rgb(255, 255, 255);
+}
+.navbar-light .navbar-brand:hover {
+  color: rgb(255, 255, 255);
+}
+.App.m-auto{
+color: #15161b;
+width: 450px;
+    margin-top: 30px !important;
+}
+input{
+  height: 44px;
+  width: 100%;
+  border: 1px solid #4db2d0;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+input:focus{
+  border: 1px solid #4db2d0 !important;
+  
+}
+.wid{
+  background-color: #7e81900d;
+  width: 100%;
+  border-radius: 5px;
+  border-color: #15161b12;
+  float: left;
+    margin-right: 15px !important;
+}
+@media (max-width: 578px) {
+  input{
+    width: 100%;
   }
-  to {
-    transform: rotate(360deg);
+  .btn-welcome{
+    padding: 2px 25px;
   }
+  .wid{
+    width: 100%;
+  }
+  .App.m-auto{
+    color: #15161b;
+    width: 90%;
+        margin-top: 30px !important;
+    }
+}
+
+.Para-filed p{
+  margin-bottom: 5px;
+  font-size: 16px;
 }
